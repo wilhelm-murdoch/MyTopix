@@ -1,0 +1,35 @@
+<?php
+$lang['err_blank_fields'] = 'Both the username and password fields must be filled out before continuing. Please try again.';
+$lang['err_no_match'] = 'Your username or password is not valid. Please be sure to check spelling and case before continuing.';
+$lang['err_board_closed'] = 'You do not have permission to access this board while it is locked.';
+$lang['err_welcome_back'] = 'Welcome back, %s! Redirecting to main page...';
+$lang['err_logoff'] = 'You have been logged off. Please, come back soon';
+$lang['err_logged_on_pass_change'] = 'Logged on members cannot recover thier passwords. However, you may change it via your control panel.';
+$lang['err_invalid_email'] = 'You have not entered a valid email.';
+$lang['err_cannot_find_email'] = 'No such email exists within our database.';
+$lang['email_recover_title_key'] = 'Password Retrieval';
+$lang['err_key_sent'] = 'A validation key has been sent to the provided email address. Please check your mail within the next 5 minutes and follow the instructions included within the message.';
+$lang['err_bad_key'] = 'You have provided an invalid key, please try again.';
+$lang['email_recover_title_pass'] = 'New Password';
+$lang['err_password_reset'] = 'Your password has been reset, sending new password to account address.';
+$lang['form_logon_title'] = 'Authentication:';
+$lang['form_logon_tip'] = 'Fill out the form below to access your account. If you cannot remember your password you must have the system issue you a new one.';
+$lang['form_logon_field_username'] = 'Username:';
+$lang['form_logon_field_username_tip'] = 'Enter your chosen account name.';
+$lang['form_logon_field_password'] = 'Password:';
+$lang['form_logon_link_retrieve'] = 'retrieve';
+$lang['form_logon_field_password_tip'] = 'Enter your account password or click the above link to assign a new one.';
+$lang['form_logon_button_submit'] = 'Log In';
+$lang['form_logon_button_reset'] = 'Reset Form';
+$lang['form_link_recover'] = 'here';
+$lang['form_retrieve_title'] = 'Password Retrieval';
+$lang['form_retrieve_tip'] = 'If you cannot remember your current account password, the only other option you have is to let the system issue you a new one. Enter your email address in the field below and submit the form. You will recieve an email containing further instructions on how to get your new password.';
+$lang['form_retrieve_field_email'] = 'Account Email:';
+$lang['form_retrieve_field_email_tip'] = 'Please supply your email address below.';
+$lang['form_retrieve_submit'] = 'Reset Password';
+$lang['form_retrieve_reset'] = 'Reset Form';
+$lang['cookie_all_gone'] = 'All cookie data written by this system has been erased.';
+$lang['forums_marked'] = 'All forums have been marked as read.';
+$lang['form_retrieve_title'] = 'Password Recovery';
+$lang['form_logon_title'] = 'User Logon';
+?>

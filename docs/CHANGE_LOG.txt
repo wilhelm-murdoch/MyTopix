@@ -1,0 +1,51 @@
+MyTopix | Personal Message Board - Change Log
+=============================================
+
+Version: 1.3.0
+- November 09, 2006
+
+1. Moved database connection info to a seperate file. They are now stored as constants.
+
+Version: 1.2.3
+- January 04, 2005
+
+1.  Modified 'index.php' to include instructions on how to use the integration feature
+    of MyTopix. I simplified the process a little bit and made it easier to understand.
+2.  I added a debug mode that can be accessed within any page by adding '&debug' to the
+    end of the URI. Currently it only spits out an array at the bottom of the current
+    page within queries and their execution times. It will expand in time.
+3.  Fixed an issue that wouldn't save certain data when adding a forum within the ACP.
+4.  Got rid of that 'blah' thingy when viewing the moderator management features within
+    the ACP.
+5.  Added several improvements to template browsing. Check boxes have been moved to the 
+    left, next to the names of the templates. The template names are also labels for the
+    check boxes. Within the section list I made the names of the sections into links so
+    it would be easier to follow.
+6.  Added several new options to the ACP's config area. Mainly dealing with the image
+    tag resizer. I forgot to add those options that let you activate / deactive the 
+    feature as well as adding your own size limits to images.
+7.  Modified the form handler for the ACP so ALL check box labels are titles for the
+    checkboxes.
+8.  Modified a few language files and fixed some spelling errors.
+9.  Rewrote the entire database abstraction library from scratch to ensure efficiency,
+    a better overall structure, commenting, optmizations and bug fixing.
+10. Fixed a few 'issues' with the parse handler
+11. Fixed an attachment issue within the form handler.
+12. Added a few new options to the user handler as well as some squashed bugs.
+13. The master handler has been recommented.
+14. The event handler has been recommented.
+15. Modified the emoticon system within the parse handler and smilie box display.
+16. Fixed that title issue within the notes module.
+17. Recommented and optimized the logon module a bit.
+18. Fixed that editing permission issue within the post module.
+19. Total rehaul of the installer system to accomodate the new upgrade manager.
+21. Fixed that irritating space issue within the bot listing.
+22. Made a few extra emoticons and published a GDK for them.
+23. Also added a few more default avatars to the system.
+24. Added a few other bits and bobs here and there.
+
+   
+Version: 1.2.2
+- December 29, 2004
+
+MyTopix was released to the public.

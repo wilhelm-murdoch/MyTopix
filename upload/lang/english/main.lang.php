@@ -1,0 +1,37 @@
+<?php
+$lang['active_info'] = 'active user(s) browsing our community.';
+$lang['active_link_details'] = 'details';
+$lang['active_link_more'] = 'more';
+$lang['active_no_active'] = 'none';
+$lang['active_sep'] = ',';
+$lang['active_title'] = 'Statistics:';
+$lang['active_user_summary'] = 'There are <strong>%s</strong> member(s) and <strong>%s</strong> guest(s) browsing this forum:';
+$lang['active_user_tip'] = 'Below you will find a list of users currently browsing this board.';
+$lang['active_user_title'] = 'Active Browsers:';
+$lang['bbcode_legend'] = 'BBcode Help';
+$lang['col_author'] = 'Author';
+$lang['col_last_post'] = 'Last Post';
+$lang['col_title'] = 'Title';
+$lang['field_topic_body'] = 'Topic Body';
+$lang['field_topic_title'] = 'Topic Title';
+$lang['goto_last_post'] = 'Goto last post...';
+$lang['last_post_at'] = 'At';
+$lang['last_post_by'] = 'By:';
+$lang['last_post_in'] = 'In:';
+$lang['main_col_forum'] = 'Forum';
+$lang['main_col_topics'] = 'Topics';
+$lang['main_col_replies'] = 'Replies';
+$lang['main_col_latest'] = 'Recent Activity';
+$lang['main_scroll_desc'] = 'Scroll to the top';
+$lang['main_scroll_title'] = 'Top';
+$lang['main_index_title'] = 'Topic Index';
+$lang['mark_read'] = 'Mark As Read';
+$lang['link_delete_cookies'] = 'Delete All Cookies';
+$lang['link_mark_all_read'] = 'Mark All Forums Read';
+$lang['news_title'] = 'Latest Community News';
+$lang['news_date'] = 'This entry was posted on the date of';
+$lang['cat_redirect'] = 'Redirects';
+$lang['bread_title'] = 'Forum Home';
+$lang['note_title'] = 'New Message Alert!';
+$lang['note_desc'] = 'has sent you a note titled:';
+?>
